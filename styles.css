@@ -1297,6 +1297,8 @@ nav.nav-hidden { transform: translateY(-100%); }
     order: 2;
   }
   .hero-content { order: 1; padding: 80px 32px 8px; }
+  /* no scroll parallax on phones, so the animation is never pushed out of view */
+  .hero-canvas, .hero-content { transform: none !important; }
 
   /* (2) Team: two photos per row, smaller PI photo */
   .team-grid { grid-template-columns: repeat(2, 1fr); gap: 28px 16px; }
