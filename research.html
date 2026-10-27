@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — He Lab</title>
+  <meta name="description" content="Research in the He Lab at NTU Singapore: discovering the copper proteome, recording cellular copper, and copper catalysis inside engineered proteins." />
+  <script>if(!matchMedia('(prefers-reduced-motion: reduce)').matches){document.documentElement.classList.add('fx');setTimeout(function(){document.documentElement.classList.add('is-loaded')},2500)}</script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">He Lab</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="join.html">Join Us</a></li>
+    </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero page-hero--statement">
+    <div class="container">
+      <p class="section-label">What We Study</p>
+      <h1>Copper is essential, reactive, and tightly controlled — cells keep it on a leash measured in single atoms. We develop chemical and protein tools to find where it acts, watch what it does, and put its chemistry to new use.</h1>
+    </div>
+  </div>
+
+  <!-- RESEARCH AREAS -->
+  <section class="section">
+    <div class="container">
+
+      <p class="section-subtitle">
+        Our work runs as a cycle. Computational prediction tells us which proteins to look at;
+        chemoproteomics and cell biology tell us what they do; and what we learn about natural
+        copper sites becomes the design input for proteins that do chemistry nature never evolved.
+        Each area feeds the next.
+      </p>
+
+      <div class="research-areas research-areas--stacked mt-40">
+
+        <!-- AREA 1 -->
+        <div class="research-area fade-up">
+          <h3>Discovering the Copper Proteome</h3>
+          <p>
+            Most copper-binding proteins in a human cell have never been identified, because copper
+            binds transiently and leaves no covalent trace. We combine machine-learning models trained
+            to recognize metal-binding geometry with activity-based chemoproteomics, using prediction
+            to nominate candidates and chemistry to test them. The goal is a map of where copper acts,
+            and a method general enough to extend to other metals.
+          </p>
+        </div>
+
+        <!-- AREA 2 -->
+        <div class="research-area fade-up">
+          <h3>Recording Cellular Copper</h3>
+          <p>
+            Fluorescent sensors report on copper only while you are watching. We engineer protein tools
+            that leave a permanent molecular record, so that a transient copper event can be read out
+            long after it happened — in cells that were never under a microscope. This lets us ask how
+            copper moves during processes too slow, too rare, or too asynchronous for live imaging.
+          </p>
+        </div>
+
+        <!-- AREA 3 -->
+        <div class="research-area fade-up">
+          <h3>Copper Catalysis Inside Proteins</h3>
+          <p>
+            Copper photocatalysis can drive bond-forming chemistry that biology has no equivalent for.
+            By installing copper-binding unnatural amino acids into designed protein scaffolds, we aim
+            to build catalysts whose selectivity comes from a protein binding pocket rather than from a
+            ligand — reactions that are possible for a small-molecule catalyst, but not controllable.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="mt-40">
+        <a href="publications.html" class="btn">See Our Publications</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPROACHES -->
+  <section class="section bg-white">
+    <div class="container">
+      <p class="section-label">How We Work</p>
+      <h2 class="section-title">Our Approaches</h2>
+      <div class="divider"></div>
+      <p class="section-subtitle">
+        We work across synthesis, proteomics, protein engineering, and computation — usually all four
+        on the same question.
+      </p>
+
+      <div class="research-areas mt-40">
+        <div class="research-area fade-up">
+          <h3>Chemical Proteomics</h3>
+          <p>Activity-based profiling and mass spectrometry to map metal–protein interactions and redox modifications across the proteome.</p>
+        </div>
+        <div class="research-area fade-up">
+          <h3>Protein Engineering</h3>
+          <p>Design, mutagenesis, and selection to evolve proteins with new copper-binding, sensing, and catalytic function.</p>
+        </div>
+        <div class="research-area fade-up">
+          <h3>Synthetic Chemistry</h3>
+          <p>Synthesis of copper-selective probes, redox-active small molecules, and unnatural amino acids for genetic incorporation.</p>
+        </div>
+        <div class="research-area fade-up">
+          <h3>Computational Design</h3>
+          <p>Structure-based modeling and machine learning to predict metal-binding sites and design new scaffolds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPTIONAL: Lab photos -->
+  <!--
+  <section class="section">
+    <div class="container">
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+        <img src="assets/lab-photo-1.jpg" alt="Lab photo 1" style="width:100%;aspect-ratio:4/3;object-fit:cover;" />
+        <img src="assets/lab-photo-2.jpg" alt="Lab photo 2" style="width:100%;aspect-ratio:4/3;object-fit:cover;" />
+      </div>
+    </div>
+  </section>
+  -->
+
+  <!-- JOIN US -->
+  <div class="recruiting-band">
+    <div class="container">
+      <h2>Interested in Joining?</h2>
+      <p>
+        If you are excited about copper chemistry, redox biology, and the interface of chemistry,
+        biology, and computation — we'd love to hear from you.
+      </p>
+      <a href="join.html" class="btn btn-white">Positions &amp; How to Apply</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">He Lab</span>
+        <span>
+          Nanyang Technological University, Singapore
+        </span>
+        <span>© <span id="year"></span> He Lab. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script id="lenis-js" src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" async></script>
+  <script src="fx.js" defer></script>
+  <script src="main.js"></script>
+</body>
+</html>
